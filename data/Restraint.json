@@ -1,0 +1,322 @@
+[
+    {
+        "addr": "5CC",
+        "len": "4",
+        "name": "SPCOptKpGainThorOffHLimit",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpGainThorOffHLimit"
+    },
+    {
+        "addr": "5D0",
+        "len": "4",
+        "name": "SPCoptKpGainThorOffLLimit",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCoptKpGainThorOffLLimit"
+    },
+    {
+        "addr": "75C",
+        "len": "4",
+        "name": "RollDown Speed Filter Gain",
+        "scale": "1/3366232",
+        "unit": "",
+        "tip": ""
+    },
+    {
+        "addr": "780",
+        "len": "4",
+        "name": "Pos Hold Trig Thresh",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "784",
+        "len": "4",
+        "name": "RollDownHighKpGainCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "788",
+        "len": "4",
+        "name": "RollDownLowKpGainCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "78C",
+        "len": "4",
+        "name": "RollDownHighKiGainCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "790",
+        "len": "4",
+        "name": "RollDownLowKiGainCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "794",
+        "len": "4",
+        "name": "Pos Hold Kp Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "798",
+        "len": "4",
+        "name": "Pos Hold Ki Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "79C",
+        "len": "4",
+        "name": "Pos Hold Kd Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7A0",
+        "len": "4",
+        "name": "PosHoldAccFFGain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7A4",
+        "len": "4",
+        "name": "PosHoldVelFFGain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "A48",
+        "len": "2",
+        "name": "Soft Stop Mode",
+        "scale": "1",
+        "unit": "1:SOFT",
+        "tip": "Stop Mode"
+    },
+    {
+        "addr": "A4C",
+        "len": "2",
+        "name": "Soft Reverse Enable",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "Quick Rev Enb"
+    },
+    {
+        "addr": "A4E",
+        "len": "2",
+        "name": "Neu Torque Release Time",
+        "scale": "1",
+        "unit": "ms",
+        "tip": "Neutral Torque Release Time"
+    },
+    {
+        "addr": "A50",
+        "len": "2",
+        "name": "Neu Torque Keep Time",
+        "scale": "1",
+        "unit": "ms",
+        "tip": "Neutral Torque Keep Time"
+    },
+    {
+        "addr": "A66",
+        "len": "2",
+        "name": "Torq Acc/Dec Rate",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptIAccDerateRate"
+    },
+    {
+        "addr": "A6C",
+        "len": "2",
+        "name": "Roll Down Enable",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "Roll Down Enable"
+    },
+    {
+        "addr": "A6E",
+        "len": "2",
+        "name": "Roll Back Speed High",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Reverse Roll Down Speed1"
+    },
+    {
+        "addr": "A70",
+        "len": "2",
+        "name": "Roll Back Speed Low",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Reverse Roll Down Speed0"
+    },
+    {
+        "addr": "A72",
+        "len": "2",
+        "name": "Roll Back Limit",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": "Reverse Roll Down ITerm Limit"
+    },
+    {
+        "addr": "A76",
+        "len": "2",
+        "name": "Roll Fwd Speed High",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Forward Roll Down SpeedA"
+    },
+    {
+        "addr": "A78",
+        "len": "2",
+        "name": "Roll Fwd Speed Low",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Forward Roll Down SpeedB"
+    },
+    {
+        "addr": "A7A",
+        "len": "2",
+        "name": "Roll Fwd Limit",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": "Forward Roll Down ITerm Limit"
+    },
+    {
+        "addr": "D2C",
+        "len": "2",
+        "name": "RollDownPIGainChangeEnable",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "DD4",
+        "len": "2",
+        "name": "SlopTorqThresh",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "DEE",
+        "len": "2",
+        "name": "SoftStopSpeedThresh",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "DF0",
+        "len": "2",
+        "name": "Pos Hold Time",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": ""
+    },
+    {
+        "addr": "DF6",
+        "len": "2",
+        "name": "Soft Stop Min Ctrl Spd",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": ""
+    },
+    {
+        "addr": "DF8",
+        "len": "2",
+        "name": "Soft Stop Threshhold Spd",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": ""
+    },
+    {
+        "addr": "DFA",
+        "len": "2",
+        "name": "SpcThroNeurPGainRampRate",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "DFC",
+        "len": "2",
+        "name": "SpcThroNeurIGainRampRate",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "DFE",
+        "len": "2",
+        "name": "PosHoldAngleErrTrigTime",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E00",
+        "len": "2",
+        "name": "SpcThroOffCtrlZeroSpdThresh",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E02",
+        "len": "2",
+        "name": "SpcThroNeurVelDecTimeMin",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E04",
+        "len": "2",
+        "name": "SpcThroNeurAnglDecTimeMin",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E06",
+        "len": "2",
+        "name": "PosHoldTorqBuildRate",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E08",
+        "len": "2",
+        "name": "Torq Acc/Dec Rate at LowSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E16",
+        "len": "2",
+        "name": "Neu Torque Build Time",
+        "scale": "1",
+        "unit": "ms",
+        "tip": ""
+    }
+]

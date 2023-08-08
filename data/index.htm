@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Icon Live</title>
+  <style>
+    th,
+    td,
+    p,
+    input {
+      font: 14px Verdana;
+    }
+
+    table,
+    th,
+    td {
+      border: solid 1px #DDD;
+      border-collapse: collapse;
+      padding: 2px 3px;
+      text-align: center;
+    }
+
+    th {
+      font-weight: bold;
+    }
+
+    .valueCell {
+      background-color: khaki;
+      border: solid 1px #DDD;
+      border-collapse: collapse;
+      padding: 2px 10px;
+      text-align: center;
+    }
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Tab links -->
+  <div id="groups"
+       class="tab">
+  </div>
+
+  <div id="tabContent">
+
+  </div>
+</body>
+
+<script>
+  function loadGroups() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        var array = JSON.parse(this.response);
+        array.forEach(function (group, index) {
+          var button = document.createElement("button");
+          button.classList.add("tablink");
+          button.addEventListener("click", function (evt) {
+            updateData(group);
+            evt.currentTarget.className += " active";
+          });
+          button.innerHTML = group;
+          document.getElementById('groups').appendChild(button);
+        });
+      }
+    };
+    xhttp.open("GET", "/groups.json", true);
+    xhttp.send();
+  }
+  function updateData(groupName) {
+    console.log('Updating ' + groupName)
+
+    var tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    var tab = document.getElementById('tabContent');
+    while (tab.firstChild) {
+      tab.removeChild(tab.firstChild);
+    }
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        var array = JSON.parse(this.response);
+        console.log(array);
+        // (C) GENERATE TABLE
+        var table = document.createElement("table");
+        table.id = 'myTable';
+        buildHeader(table);
+        array.forEach(function (item, index) {
+          var row = table.insertRow();
+          buildRow(item, row);
+        });
+        document.getElementById('tabContent').appendChild(table);
+      }
+    };
+    var file = "/" + groupName + ".json";
+    xhttp.open("GET", file, true);
+    xhttp.send();
+  }
+
+  function buildHeader(table) {
+    var row = table.insertRow();
+    var cell = row.insertCell();
+    cell.innerHTML = 'Var Name';
+    cell = row.insertCell();
+    cell.innerHTML = 'Address';
+    cell = row.insertCell();
+    cell.innerHTML = 'Current Value';
+    cell = row.insertCell();
+    cell.innerHTML = 'New Value';
+    cell = row.insertCell();
+    cell.innerHTML = 'Units';
+    cell = row.insertCell();
+    cell.innerHTML = 'Scale';
+    cell = row.insertCell();
+    cell.innerHTML = 'Tip';
+    cell = row.insertCell();
+    cell.innerHTML = 'Write Update';
+  }
+
+  function buildRow(item, row) {
+    var cell = row.insertCell();
+    cell.innerHTML = item['name'];
+
+    cell = row.insertCell();
+    cell.innerHTML = item['addr'];
+
+    cell = row.insertCell();
+    cell.innerHTML = 'loading...';
+    cell.classList.add('valueCell');
+    getValue(cell, item['addr']);
+
+    var input = document.createElement("input");
+    input.addEventListener("input", function () {
+      row.children[7].style.display = input.value ? 'block' : 'none';
+    });
+    cell = row.insertCell();
+    cell.appendChild(input)
+
+    cell = row.insertCell();
+    cell.innerHTML = item['unit'];
+
+    cell = row.insertCell();
+    cell.innerHTML = item['scale'];
+
+    cell = row.insertCell();
+    cell.innerHTML = item['tip'];
+
+    var write = document.createElement("button");
+    write.innerHTML = 'Write';
+    write.addEventListener("click", function () {
+      writeUpdate(row);
+    });
+    cell = row.insertCell();
+    cell.style.display = 'none';
+    cell.appendChild(write)
+  }
+
+  function getValue(cell, addr) {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        cell.innerHTML = this.response
+      }
+      else if (this.readyState == 4) {
+        cell.innerHTML = 'failed';
+      }
+      else {
+        cell.innerHTML = '-----'
+      }
+    };
+    xhttp.open("GET", '/read/' + addr, true);
+    xhttp.send();
+  }
+
+  function writeUpdate(row) {
+    var addr = row.children[1].innerHTML;
+    var value = row.children[3].firstChild.value;
+    console.log('Setting ' + addr + ' to ' + value);
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+      if (this.readyState == 4 && this.status == 200) {
+        row.children[3].firstChild.value = "";
+        getValue(row.children[2], addr);
+      }
+      else if (this.readyState == 4) {
+        row.children[3].firstChild.value = 'failed';
+      }
+      else {
+        row.children[3].firstChild.value = 'writing';
+        row.children[7].style.display = 'none';
+      }
+    };
+    xhttp.open("POST", '/write/' + addr, true);
+    xhttp.send(value);
+  }
+
+  loadGroups();
+</script>
+
+</html>

@@ -1,0 +1,1986 @@
+[
+    {
+        "addr": "DC",
+        "len": "2",
+        "name": "Identification Mode",
+        "scale": "1",
+        "unit": "0:NULL\n1:MID\n3:TUN",
+        "tip": "IdentificationMode"
+    },
+    {
+        "addr": "EC",
+        "len": "2",
+        "name": "MTPA Current Given",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "EE",
+        "len": "2",
+        "name": "MTPA Torq Angle",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "100",
+        "len": "2",
+        "name": "MID  Procedure Mode",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MID  Procedure Mode"
+    },
+    {
+        "addr": "3DE",
+        "len": "2",
+        "name": "MIDPmsmAlignCurrentLooop",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5D8",
+        "len": "4",
+        "name": "PmsmParaNormFluxBemfCoeff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5DC",
+        "len": "4",
+        "name": "PmsmParaNormLDBemfCoeff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5E0",
+        "len": "4",
+        "name": "PmsmParaNormLQBemfCoeff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5E4",
+        "len": "4",
+        "name": "CCIDpiKPGainMaxKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5E8",
+        "len": "4",
+        "name": "CCIDpiKiGainMaxKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5EC",
+        "len": "4",
+        "name": "CCIQpiKPGainMaxKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5F0",
+        "len": "4",
+        "name": "CCIQpiKiGainMaxKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5F4",
+        "len": "4",
+        "name": "CCIDpiKPGain12KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5F8",
+        "len": "4",
+        "name": "CCIDpiKiGain12KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "5FC",
+        "len": "4",
+        "name": "CCIQpiKPGain12KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "600",
+        "len": "4",
+        "name": "CCIQpiKiGain12KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "604",
+        "len": "4",
+        "name": "Id Control - Kp 10K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "608",
+        "len": "4",
+        "name": "Id Control - Ki 10K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "60C",
+        "len": "4",
+        "name": "Iq Control - Kp 10K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "610",
+        "len": "4",
+        "name": "Iq Control - Ki 10K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "614",
+        "len": "4",
+        "name": "Id Control - Kp 8K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "618",
+        "len": "4",
+        "name": "Id Control - Ki 8K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "61C",
+        "len": "4",
+        "name": "Iq Control - Kp 8K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "620",
+        "len": "4",
+        "name": "Iq Control - Ki 8K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "624",
+        "len": "4",
+        "name": "Id Control - Kp 6K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "628",
+        "len": "4",
+        "name": "Id Control - Ki 6K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "62C",
+        "len": "4",
+        "name": "Iq Control - Kp 6K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "630",
+        "len": "4",
+        "name": "Iq Control - Ki 6K",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "634",
+        "len": "4",
+        "name": "CCIDpiKPGain4KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "638",
+        "len": "4",
+        "name": "CCIDpiKiGain4KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "63C",
+        "len": "4",
+        "name": "CCIQpiKPGain4KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "640",
+        "len": "4",
+        "name": "CCIQpiKiGain4KHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "644",
+        "len": "4",
+        "name": "CCIDpiKPGainMinKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "648",
+        "len": "4",
+        "name": "CCIDpiKiGainMinKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "64C",
+        "len": "4",
+        "name": "CCIQpiKPGainMinKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "650",
+        "len": "4",
+        "name": "CCIQpiKiGainMinKHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "654",
+        "len": "4",
+        "name": "Nominal Id Ctrl Kp Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "658",
+        "len": "4",
+        "name": "Nominal Id Ctrl Ki Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "65C",
+        "len": "4",
+        "name": "Nominal Iq Ctrl Kp Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "660",
+        "len": "4",
+        "name": "Nominal Iq Ctrl Ki Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "664",
+        "len": "4",
+        "name": "CtfwFWVoltVectRefLevel",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "668",
+        "len": "4",
+        "name": "CTFW Ctrl Kp",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "66C",
+        "len": "4",
+        "name": "CTFW CTrl Ki",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "670",
+        "len": "4",
+        "name": "CtfwFWCurrentMax",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "674",
+        "len": "4",
+        "name": "MTPV Ctrl Kp",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "678",
+        "len": "4",
+        "name": "MTPV Ctrl Ki",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "67C",
+        "len": "4",
+        "name": "Motor Phase Resit",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "698",
+        "len": "4",
+        "name": "Low Speed Mot Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "69C",
+        "len": "4",
+        "name": "Low Speed Mot Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6A0",
+        "len": "4",
+        "name": "High Speed Mot Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6A4",
+        "len": "4",
+        "name": "High Speed Mot Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6A8",
+        "len": "4",
+        "name": "Low SpeedMot  Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6AC",
+        "len": "4",
+        "name": "Low Speed Mot  Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6B0",
+        "len": "4",
+        "name": "High Speed Mot  Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6B4",
+        "len": "4",
+        "name": "High Speed Mot  Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6B8",
+        "len": "4",
+        "name": "CCLUdDecpCoffLSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6BC",
+        "len": "4",
+        "name": "CCLUqDecpCoffLSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6C0",
+        "len": "4",
+        "name": "CCLUdDecpCoffHSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6C4",
+        "len": "4",
+        "name": "CCLUqDecpCoffHSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6C8",
+        "len": "4",
+        "name": "Motor Rs",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Rs"
+    },
+    {
+        "addr": "6CC",
+        "len": "4",
+        "name": "Motor Rr",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Rr"
+    },
+    {
+        "addr": "6D0",
+        "len": "4",
+        "name": "Motor J",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor J"
+    },
+    {
+        "addr": "6D4",
+        "len": "4",
+        "name": "MID CCL KP Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MIDCCLPGain"
+    },
+    {
+        "addr": "6D8",
+        "len": "4",
+        "name": "MID CCL KI Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MIDCCLIGain"
+    },
+    {
+        "addr": "6DC",
+        "len": "4",
+        "name": "MID SCL KP Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MIDSCLPGain"
+    },
+    {
+        "addr": "6E0",
+        "len": "4",
+        "name": "MID SCL KI Gain",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MIDSCLIGain"
+    },
+    {
+        "addr": "6E4",
+        "len": "4",
+        "name": "Mtr Rotating Waiting S",
+        "scale": "1",
+        "unit": "",
+        "tip": "Mtr Rotating Waiting S"
+    },
+    {
+        "addr": "6E8",
+        "len": "4",
+        "name": "Mtr Blocking Waiting S",
+        "scale": "1",
+        "unit": "",
+        "tip": "Mtr Blocking Waiting S"
+    },
+    {
+        "addr": "6EC",
+        "len": "4",
+        "name": "Middle Speed Mot Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6F0",
+        "len": "4",
+        "name": "Middle Speed Mot Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6F4",
+        "len": "4",
+        "name": "Middle Speed Mot Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6F8",
+        "len": "4",
+        "name": "Middle Speed Mot Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "6FC",
+        "len": "4",
+        "name": "Motor Ls",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Ls"
+    },
+    {
+        "addr": "700",
+        "len": "4",
+        "name": "Motor Lm",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Lm"
+    },
+    {
+        "addr": "704",
+        "len": "4",
+        "name": "Motor Rm",
+        "scale": "1",
+        "unit": "",
+        "tip": "Motor Rm"
+    },
+    {
+        "addr": "708",
+        "len": "4",
+        "name": "Nominal Torq Slip Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Torq Slip Coff"
+    },
+    {
+        "addr": "70C",
+        "len": "4",
+        "name": "Max Slip Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Max Slip Coff"
+    },
+    {
+        "addr": "720",
+        "len": "4",
+        "name": "CCL Low Speed Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "724",
+        "len": "4",
+        "name": "CCL Middle Speed Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "728",
+        "len": "4",
+        "name": "CCL High Speed Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "740",
+        "len": "4",
+        "name": "PmsmParaMotorNomiLD",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "744",
+        "len": "4",
+        "name": "PmsmParaMotorNomiLQ",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "748",
+        "len": "4",
+        "name": "PmsmParaMotorNomiFlux",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "74C",
+        "len": "4",
+        "name": "FluxPosCompCoffQ14",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "750",
+        "len": "4",
+        "name": "FluxPosCompCoffQ23",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "754",
+        "len": "4",
+        "name": "CtfwIqCompRegCoffQ4",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "758",
+        "len": "4",
+        "name": "CtfwIqCompRegCoffQ2",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7AC",
+        "len": "4",
+        "name": "MTPV IQ IIR Gain0",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7B0",
+        "len": "4",
+        "name": "MTPV IQ IIR Gain0",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7B4",
+        "len": "4",
+        "name": "FieldWeak ID Speed Coeff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7B8",
+        "len": "4",
+        "name": "ID Min Speed Coeff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7D0",
+        "len": "4",
+        "name": "Low Speed Gen Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7D4",
+        "len": "4",
+        "name": "Low Speed Gen Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7D8",
+        "len": "4",
+        "name": "High Speed Gen Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7DC",
+        "len": "4",
+        "name": "High Speed Gen Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7E0",
+        "len": "4",
+        "name": "Low Speed Gen  Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7E4",
+        "len": "4",
+        "name": "Low Speed Gen Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7E8",
+        "len": "4",
+        "name": "High Speed Gen Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7EC",
+        "len": "4",
+        "name": "High Speed Gen Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7F0",
+        "len": "4",
+        "name": "Middle Speed Gen Id Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7F4",
+        "len": "4",
+        "name": "Middle Speed Gen Id Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7F8",
+        "len": "4",
+        "name": "Middle Speed Gen Iq Kp Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7FC",
+        "len": "4",
+        "name": "Middle Speed Gen Iq Ki Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "984",
+        "len": "2",
+        "name": "Stall Protenction Mode",
+        "scale": "1",
+        "unit": "1:ALARM\n2:FAULT",
+        "tip": "Stall Protection Mode"
+    },
+    {
+        "addr": "9B4",
+        "len": "2",
+        "name": "Mot OT Mode",
+        "scale": "1",
+        "unit": "1:ALARM\n2:FAULT",
+        "tip": "Motor Over Temp Protection Mode"
+    },
+    {
+        "addr": "9BA",
+        "len": "2",
+        "name": "MOT Enc Fault Mode",
+        "scale": "1",
+        "unit": "1:ALARM\n2:FAULT",
+        "tip": "MotEncFaultMode"
+    },
+    {
+        "addr": "9BC",
+        "len": "2",
+        "name": "RSLV Alarm Check Count",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Resolvor Alarm Check Count"
+    },
+    {
+        "addr": "9BE",
+        "len": "2",
+        "name": "RSLV Fault Check Count",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Resolvor Fault Check Count"
+    },
+    {
+        "addr": "9FC",
+        "len": "2",
+        "name": "MOT OT Degrading Start Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "MotOVTDegradeCoeff0"
+    },
+    {
+        "addr": "9FE",
+        "len": "2",
+        "name": "MOT OT Degrading End Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "MotOVTDegradeCoeff1"
+    },
+    {
+        "addr": "A00",
+        "len": "2",
+        "name": "MOT OT Degrading Start Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Mot Over Temp Degrading  Start Temp"
+    },
+    {
+        "addr": "A02",
+        "len": "2",
+        "name": "MOT OT Degrading  End Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Mot Over Temp Degrading  End Temp"
+    },
+    {
+        "addr": "A68",
+        "len": "2",
+        "name": "Sall Current",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": ""
+    },
+    {
+        "addr": "A6A",
+        "len": "2",
+        "name": "Stall Frequency",
+        "scale": "1/U16FreqScale",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "A74",
+        "len": "2",
+        "name": "Stall Time",
+        "scale": "1/10",
+        "unit": "s",
+        "tip": ""
+    },
+    {
+        "addr": "AA2",
+        "len": "2",
+        "name": "Motor Fly IQ Limit",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B08",
+        "len": "2",
+        "name": "CCL Freq Fc Hz",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Speed Fc Hz for CCL"
+    },
+    {
+        "addr": "B0A",
+        "len": "2",
+        "name": "Volt Feeback Fc Hz",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "B0C",
+        "len": "2",
+        "name": "Current Ref Fc Hz",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "B0E",
+        "len": "2",
+        "name": "CTFWIdIIRFcHz",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "B20",
+        "len": "2",
+        "name": "Fulx Position Offset",
+        "scale": "1",
+        "unit": "-",
+        "tip": "RSLV Position"
+    },
+    {
+        "addr": "B22",
+        "len": "2",
+        "name": "Motor Pairs",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Pairs"
+    },
+    {
+        "addr": "B24",
+        "len": "2",
+        "name": "Motor Norm Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Motor Norm Voltage"
+    },
+    {
+        "addr": "B26",
+        "len": "2",
+        "name": "Motor Norm Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Motor Norm Current"
+    },
+    {
+        "addr": "B28",
+        "len": "2",
+        "name": "Motor Char Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Motor Char Current"
+    },
+    {
+        "addr": "B2A",
+        "len": "2",
+        "name": "Motor Norm Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Motor Norm Speed"
+    },
+    {
+        "addr": "B2C",
+        "len": "2",
+        "name": "Motor Norm Torq",
+        "scale": "1/U16TorqueScale",
+        "unit": "Nm",
+        "tip": "Motor Norm Torq"
+    },
+    {
+        "addr": "B2E",
+        "len": "2",
+        "name": "Motor Norm Power",
+        "scale": "U16PowerScale/1000",
+        "unit": "KW",
+        "tip": "Motor Norm Power"
+    },
+    {
+        "addr": "B38",
+        "len": "2",
+        "name": "Motor Max Power",
+        "scale": "U16PowerScale/1000",
+        "unit": "KW",
+        "tip": "Motor Max Power"
+    },
+    {
+        "addr": "B3A",
+        "len": "2",
+        "name": "Motor Max Torq",
+        "scale": "1/U16TorqueScale",
+        "unit": "Nm",
+        "tip": "Motor Max Torq"
+    },
+    {
+        "addr": "B3C",
+        "len": "2",
+        "name": "Motor Max Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Motor Max Current"
+    },
+    {
+        "addr": "B3E",
+        "len": "2",
+        "name": "Motor Max Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Motor Max Speed"
+    },
+    {
+        "addr": "B40",
+        "len": "2",
+        "name": "Motor ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MotorParaTypeID"
+    },
+    {
+        "addr": "B42",
+        "len": "2",
+        "name": "CCGainLSpdThrd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B44",
+        "len": "2",
+        "name": "CCGainHSpdThrd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B46",
+        "len": "2",
+        "name": "CCGainMSpdThrd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B48",
+        "len": "2",
+        "name": "CCLIpartCoffLSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B4A",
+        "len": "2",
+        "name": "CCLPpartCoffHSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B4C",
+        "len": "2",
+        "name": "CCLIpartCoffHSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B4E",
+        "len": "2",
+        "name": "MtpaDataRefBase0",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B50",
+        "len": "2",
+        "name": "MtpaDataCurrent0",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B52",
+        "len": "2",
+        "name": "MtpaDataTheta0",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B54",
+        "len": "2",
+        "name": "MtpaDataRefBase1",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B56",
+        "len": "2",
+        "name": "MtpaDataCurrent1",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B58",
+        "len": "2",
+        "name": "MtpaDataTheta1",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B5A",
+        "len": "2",
+        "name": "MtpaDataRefBase2",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B5C",
+        "len": "2",
+        "name": "MtpaDataCurrent2",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B5E",
+        "len": "2",
+        "name": "MtpaDataTheta2",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B60",
+        "len": "2",
+        "name": "MtpaDataRefBase3",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B62",
+        "len": "2",
+        "name": "MtpaDataCurrent3",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B64",
+        "len": "2",
+        "name": "MtpaDataTheta3",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B66",
+        "len": "2",
+        "name": "MtpaDataRefBase4",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B68",
+        "len": "2",
+        "name": "MtpaDataCurrent4",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B6A",
+        "len": "2",
+        "name": "MtpaDataTheta4",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B6C",
+        "len": "2",
+        "name": "MtpaDataRefBase5",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B6E",
+        "len": "2",
+        "name": "MtpaDataCurrent5",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B70",
+        "len": "2",
+        "name": "MtpaDataTheta5",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B72",
+        "len": "2",
+        "name": "MtpaDataRefBase6",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B74",
+        "len": "2",
+        "name": "MtpaDataCurrent6",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B76",
+        "len": "2",
+        "name": "MtpaDataTheta6",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B78",
+        "len": "2",
+        "name": "MtpaDataRefBase7",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B7A",
+        "len": "2",
+        "name": "MtpaDataCurrent7",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B7C",
+        "len": "2",
+        "name": "MtpaDataTheta7",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B7E",
+        "len": "2",
+        "name": "MtpaDataRefBase8",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B80",
+        "len": "2",
+        "name": "MtpaDataCurrent8",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B82",
+        "len": "2",
+        "name": "MtpaDataTheta8",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B84",
+        "len": "2",
+        "name": "MtpaDataRefBase9",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B86",
+        "len": "2",
+        "name": "MtpaDataCurrent9",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B88",
+        "len": "2",
+        "name": "MtpaDataTheta9",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B8A",
+        "len": "2",
+        "name": "MtpaDataRefBase10",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B8C",
+        "len": "2",
+        "name": "MtpaDataCurrent10",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B8E",
+        "len": "2",
+        "name": "MtpaDataTheta10",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B90",
+        "len": "2",
+        "name": "MtpaDataRefBase11",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B92",
+        "len": "2",
+        "name": "MtpaDataCurrent11",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B94",
+        "len": "2",
+        "name": "MtpaDataTheta11",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B96",
+        "len": "2",
+        "name": "MtpaDataRefBase12",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B98",
+        "len": "2",
+        "name": "MtpaDataCurrent12",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B9A",
+        "len": "2",
+        "name": "MtpaDataTheta12",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B9C",
+        "len": "2",
+        "name": "MtpaDataRefBase13",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "B9E",
+        "len": "2",
+        "name": "MtpaDataCurrent13",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BA0",
+        "len": "2",
+        "name": "MtpaDataTheta13",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BA2",
+        "len": "2",
+        "name": "MtpaDataRefBase14",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BA4",
+        "len": "2",
+        "name": "MtpaDataCurrent14",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BA6",
+        "len": "2",
+        "name": "MtpaDataTheta14",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BA8",
+        "len": "2",
+        "name": "MtpaDataRefBase15",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BAA",
+        "len": "2",
+        "name": "MtpaDataCurrent15",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BAC",
+        "len": "2",
+        "name": "MtpaDataTheta15",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BAE",
+        "len": "2",
+        "name": "MtpaDataRefBase16",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BB0",
+        "len": "2",
+        "name": "MtpaDataCurrent16",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BB2",
+        "len": "2",
+        "name": "MtpaDataTheta16",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BB4",
+        "len": "2",
+        "name": "MtpaDataRefBase17",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BB6",
+        "len": "2",
+        "name": "MtpaDataCurrent17",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BB8",
+        "len": "2",
+        "name": "MtpaDataTheta17",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BBA",
+        "len": "2",
+        "name": "MtpaDataRefBase18",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BBC",
+        "len": "2",
+        "name": "MtpaDataCurrent18",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BBE",
+        "len": "2",
+        "name": "MtpaDataTheta18",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BC0",
+        "len": "2",
+        "name": "MtpaDataRefBase19",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BC2",
+        "len": "2",
+        "name": "MtpaDataCurrent19",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BC4",
+        "len": "2",
+        "name": "MtpaDataTheta19",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BC6",
+        "len": "2",
+        "name": "MtpaDataRefBase20",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BC8",
+        "len": "2",
+        "name": "MtpaDataCurrent20",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BCA",
+        "len": "2",
+        "name": "MtpaDataTheta20",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "BCC",
+        "len": "2",
+        "name": "Motor Fly Torq Limit",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": ""
+    },
+    {
+        "addr": "BCE",
+        "len": "2",
+        "name": "Flux Rotor Current Ref",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Flux Rotor Posurrent Ref"
+    },
+    {
+        "addr": "BD0",
+        "len": "2",
+        "name": "Align Loop Times",
+        "scale": "1",
+        "unit": "-",
+        "tip": "AlignLoopTimes"
+    },
+    {
+        "addr": "BD2",
+        "len": "2",
+        "name": "Motor Fly Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Motor Fly Speed"
+    },
+    {
+        "addr": "BE0",
+        "len": "2",
+        "name": "Motor Fly High acceration",
+        "scale": "1",
+        "unit": "",
+        "tip": "Motor Fly High acceration"
+    },
+    {
+        "addr": "BE2",
+        "len": "2",
+        "name": "Motor Fly Low acceration",
+        "scale": "1",
+        "unit": "",
+        "tip": "Motor Fly Low acceration"
+    },
+    {
+        "addr": "BE4",
+        "len": "2",
+        "name": "Motor Fly Time",
+        "scale": "1",
+        "unit": "ms",
+        "tip": "Motor Fly Time"
+    },
+    {
+        "addr": "BEC",
+        "len": "2",
+        "name": "ACIMSlipMAFilterGainI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "ACIMSlipMAFilterGainI"
+    },
+    {
+        "addr": "BEE",
+        "len": "2",
+        "name": "ACIMSlipMAFilterGainV",
+        "scale": "1",
+        "unit": "-",
+        "tip": "ACIMSlipMAFilterGainV"
+    },
+    {
+        "addr": "C02",
+        "len": "2",
+        "name": "Encoder Pulse/R",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Enc Pulse Per Rev"
+    },
+    {
+        "addr": "C04",
+        "len": "2",
+        "name": "Motor Magni Current",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Magni Current"
+    },
+    {
+        "addr": "C06",
+        "len": "2",
+        "name": "Mtr Retry Times",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Mtr Retry Times"
+    },
+    {
+        "addr": "C08",
+        "len": "2",
+        "name": "Spd Ramp32 Rate",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Spd Ramp32 Rate"
+    },
+    {
+        "addr": "C0A",
+        "len": "2",
+        "name": "Ref Ramp16 Rate",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Ref Ramp16 Rate"
+    },
+    {
+        "addr": "C0C",
+        "len": "2",
+        "name": "Spd Ramp16 Rate",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Spd Ramp16 Rate"
+    },
+    {
+        "addr": "C0E",
+        "len": "2",
+        "name": "Pwr Char Cur Ref",
+        "scale": "1/U16CurrentScale",
+        "unit": "-",
+        "tip": "Pwr Char Cur Ref"
+    },
+    {
+        "addr": "C10",
+        "len": "2",
+        "name": "Pwr Rs Cur Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Pwr Rs Cur Ref Coff"
+    },
+    {
+        "addr": "C12",
+        "len": "2",
+        "name": "Block Current Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Block Current Ref Coff"
+    },
+    {
+        "addr": "C14",
+        "len": "2",
+        "name": "Block Spd Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Block Spd Ref Coff"
+    },
+    {
+        "addr": "C16",
+        "len": "2",
+        "name": "No Load Spd Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "No Load Spd Ref Coff"
+    },
+    {
+        "addr": "C18",
+        "len": "2",
+        "name": "Slip Stable Torl",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Slip Stable Torl"
+    },
+    {
+        "addr": "C1A",
+        "len": "2",
+        "name": "Mom Cur Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Mom Cur Ref Coff"
+    },
+    {
+        "addr": "C1C",
+        "len": "2",
+        "name": "Mom Spd Ref Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Mom Spd Ref Coff"
+    },
+    {
+        "addr": "C1E",
+        "len": "2",
+        "name": "Mom Spd Trig Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Mom Spd Trig Coff"
+    },
+    {
+        "addr": "C20",
+        "len": "2",
+        "name": "MTPA Id Min Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C22",
+        "len": "2",
+        "name": "MTPA Id Max Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C24",
+        "len": "2",
+        "name": "Max Torq Slip Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C26",
+        "len": "2",
+        "name": "ACIMMinSlipCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C28",
+        "len": "2",
+        "name": "ACIM Slip Ested Hz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C2A",
+        "len": "2",
+        "name": "TEVDSupportMotor",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C2C",
+        "len": "2",
+        "name": "CTFWVoltTrigONLevel",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C2E",
+        "len": "2",
+        "name": "CTFWVoltTrigOFFLevel",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C30",
+        "len": "2",
+        "name": "CTFWIdRealIIRFcHz",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "C32",
+        "len": "2",
+        "name": "Encoder AB Reverse",
+        "scale": "1",
+        "unit": "1:REV",
+        "tip": "Encoder AB Logic"
+    },
+    {
+        "addr": "CF4",
+        "len": "2",
+        "name": "MIDPMFluxRotorAngelAlignTor",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "CF6",
+        "len": "2",
+        "name": "MIDPMFluxRotorWaitingTimeMs",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "CF8",
+        "len": "2",
+        "name": "MIDCurAccTimeSecond",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "CFA",
+        "len": "2",
+        "name": "MIDSpdAccTimeSecond",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "CFC",
+        "len": "2",
+        "name": "MIDEncABCurrentRefCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "CFE",
+        "len": "2",
+        "name": "MIDEncABSpdRefCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "D28",
+        "len": "2",
+        "name": "EncSpdLimitZero",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "D80",
+        "len": "2",
+        "name": "MotOverSpeedPercent",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": ""
+    },
+    {
+        "addr": "D82",
+        "len": "2",
+        "name": "MotOverSpeedRpm",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "D84",
+        "len": "2",
+        "name": "MotOverSpeedMinRpm",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E0C",
+        "len": "2",
+        "name": "FieldWeak IQ Ramp Up Step",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "E0E",
+        "len": "2",
+        "name": "FieldWeak IQ Ramp Dwn Step",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    }
+]

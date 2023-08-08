@@ -1,0 +1,298 @@
+[
+    {
+        "addr": "8EA",
+        "len": "2",
+        "name": "Fire Key Type",
+        "scale": "1",
+        "unit": "3:KSI\n4:CAN",
+        "tip": "Fire Key Type"
+    },
+    {
+        "addr": "8EC",
+        "len": "2",
+        "name": "KSI Off Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "KSI Off Voltage"
+    },
+    {
+        "addr": "8EE",
+        "len": "2",
+        "name": "KSI On Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "KSI On Voltage"
+    },
+    {
+        "addr": "8F0",
+        "len": "2",
+        "name": "Gear Type",
+        "scale": "1",
+        "unit": "1:IO\n2:AI\n 3:CAN",
+        "tip": "Gear Type"
+    },
+    {
+        "addr": "916",
+        "len": "2",
+        "name": "Charge Link Logic",
+        "scale": "1",
+        "unit": "0:LowAct\n1:HiAct",
+        "tip": "Charge Link Logic"
+    },
+    {
+        "addr": "97C",
+        "len": "2",
+        "name": "Veh Run Request Mode",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Run Request Mode"
+    },
+    {
+        "addr": "97E",
+        "len": "2",
+        "name": "Fwd Configuration",
+        "scale": "1",
+        "unit": "0:Anti\n1:Sync",
+        "tip": "Direction Configuration"
+    },
+    {
+        "addr": "980",
+        "len": "2",
+        "name": "Gear Ratio",
+        "scale": "1/10",
+        "unit": "-",
+        "tip": "Gear Ratio"
+    },
+    {
+        "addr": "982",
+        "len": "2",
+        "name": "Tire Diameter",
+        "scale": "1/1000",
+        "unit": "m",
+        "tip": "Tire Diameter"
+    },
+    {
+        "addr": "986",
+        "len": "2",
+        "name": "Meter Pulse Per Round",
+        "scale": "1/10",
+        "unit": "-",
+        "tip": "Pulse Per Round"
+    },
+    {
+        "addr": "A04",
+        "len": "2",
+        "name": "Control Place",
+        "scale": "1",
+        "unit": "1:LOC\n2:PUMP\n20:PC",
+        "tip": "Control Place"
+    },
+    {
+        "addr": "A06",
+        "len": "2",
+        "name": "Control Mode",
+        "scale": "1",
+        "unit": "1:TORQ\n2:SPEED",
+        "tip": "Control Mode"
+    },
+    {
+        "addr": "A08",
+        "len": "2",
+        "name": "HPD Enable",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "HPD Enable"
+    },
+    {
+        "addr": "A0A",
+        "len": "2",
+        "name": "SRO Enable",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "SRO Enable"
+    },
+    {
+        "addr": "AC2",
+        "len": "2",
+        "name": "Vehicle Fwd Speed(HSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": "Veh Forward Speed(KMh)"
+    },
+    {
+        "addr": "AC4",
+        "len": "2",
+        "name": "Vehicle Rev Speed(HSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": "Veh Reverse Speed(KMh)"
+    },
+    {
+        "addr": "AC6",
+        "len": "2",
+        "name": "Charge Link Handle",
+        "scale": "1",
+        "unit": "0:NUL_DRV\n1:MC_OPEN",
+        "tip": "CrgLnk Handle Mode"
+    },
+    {
+        "addr": "BD4",
+        "len": "2",
+        "name": "Lip Lock Func Enable",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "LockDIFunctionEnable"
+    },
+    {
+        "addr": "BD6",
+        "len": "2",
+        "name": "EVD Func Mode",
+        "scale": "1",
+        "unit": "-",
+        "tip": "MotorControllerNo"
+    },
+    {
+        "addr": "BDE",
+        "len": "2",
+        "name": "Charge Link Enable",
+        "scale": "1",
+        "unit": "1:IO\n 2:CAN",
+        "tip": "Charge Link Type"
+    },
+    {
+        "addr": "BF0",
+        "len": "2",
+        "name": "Low High Spd Switch Mode",
+        "scale": "1",
+        "unit": "1:IO_H-L\n19:CAN_H-M-L",
+        "tip": ""
+    },
+    {
+        "addr": "BF4",
+        "len": "2",
+        "name": "HandBrake Signal Logic",
+        "scale": "1",
+        "unit": "0:LowAct\n1:HiAct",
+        "tip": "HandBrake Signal Logic"
+    },
+    {
+        "addr": "BF6",
+        "len": "2",
+        "name": "Seat Signal Logic",
+        "scale": "1",
+        "unit": "0:LowAct\n1:HiAct",
+        "tip": "Seat Signal Logic"
+    },
+    {
+        "addr": "BF8",
+        "len": "2",
+        "name": "HandBrake Type",
+        "scale": "1",
+        "unit": "8:1_DI",
+        "tip": "HandBrake Type"
+    },
+    {
+        "addr": "CB4",
+        "len": "2",
+        "name": "SeatCtrlMode",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "SeatCtrlMode"
+    },
+    {
+        "addr": "CB6",
+        "len": "2",
+        "name": "SeatLatching",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "SeatLatching"
+    },
+    {
+        "addr": "CB8",
+        "len": "2",
+        "name": "SeatWarningActiveSpeed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "SeatWarningActiveSpeed"
+    },
+    {
+        "addr": "CBA",
+        "len": "2",
+        "name": "SeatOffDelay",
+        "scale": "1",
+        "unit": "ms",
+        "tip": "SeatOffDelay"
+    },
+    {
+        "addr": "CBC",
+        "len": "2",
+        "name": "Lock In Ctrl Mode",
+        "scale": "1",
+        "unit": "-",
+        "tip": "LockInCtrlMode"
+    },
+    {
+        "addr": "D22",
+        "len": "2",
+        "name": "CAN Baud",
+        "scale": "1",
+        "unit": "6:125K\n8:250K\n10:500K",
+        "tip": ""
+    },
+    {
+        "addr": "D2E",
+        "len": "2",
+        "name": "Vehicle Fwd Speed(MSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": ""
+    },
+    {
+        "addr": "D30",
+        "len": "2",
+        "name": "Vehicle Rev Speed(MSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": ""
+    },
+    {
+        "addr": "D32",
+        "len": "2",
+        "name": "Vehicle Fwd Speed(LSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": ""
+    },
+    {
+        "addr": "D34",
+        "len": "2",
+        "name": "Vehicle Rev Speed(LSM)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": ""
+    },
+    {
+        "addr": "DA6",
+        "len": "2",
+        "name": "Cabin Door Func Mode",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": ""
+    },
+    {
+        "addr": "DA8",
+        "len": "2",
+        "name": "Cabin Door Signal LoginbgnalLogic",
+        "scale": "1",
+        "unit": "0:LowAct\n1:HiAct",
+        "tip": ""
+    },
+    {
+        "addr": "DDE",
+        "len": "2",
+        "name": "EcoFuncMode",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    }
+]

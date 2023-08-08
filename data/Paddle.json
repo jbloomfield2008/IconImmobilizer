@@ -1,0 +1,274 @@
+[
+    {
+        "addr": "76C",
+        "len": "4",
+        "name": "Throttle DI Volt Filter Gain",
+        "scale": "1/3366232",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "8F2",
+        "len": "2",
+        "name": "Throttle Type",
+        "scale": "1",
+        "unit": "1:1_AI\n2:AI_DI\n6:CAN\n10:2_AI",
+        "tip": "Throttle Type"
+    },
+    {
+        "addr": "8F4",
+        "len": "2",
+        "name": "Throttle Dead-band",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Throttle Dead-band"
+    },
+    {
+        "addr": "8F8",
+        "len": "2",
+        "name": "Throttle Max",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Throttle Max"
+    },
+    {
+        "addr": "8FA",
+        "len": "2",
+        "name": "Throttle Offset",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Throttle Offset"
+    },
+    {
+        "addr": "8FC",
+        "len": "2",
+        "name": "Throttle Map1/4",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Throttle Map1/4"
+    },
+    {
+        "addr": "8FE",
+        "len": "2",
+        "name": "Throttle Map1/2",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Throttle Map1/2"
+    },
+    {
+        "addr": "900",
+        "len": "2",
+        "name": "Brake Type",
+        "scale": "1",
+        "unit": "1:1_AI\n6:CAN\n8:1_DI",
+        "tip": "Brake Type"
+    },
+    {
+        "addr": "902",
+        "len": "2",
+        "name": "Brake  Dead-band",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Brake Deadband"
+    },
+    {
+        "addr": "904",
+        "len": "2",
+        "name": "Brake Max",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Brake Max"
+    },
+    {
+        "addr": "906",
+        "len": "2",
+        "name": "Brake Offset",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Brake Offset"
+    },
+    {
+        "addr": "908",
+        "len": "2",
+        "name": "Brake Map",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Brake Map"
+    },
+    {
+        "addr": "90A",
+        "len": "2",
+        "name": "Paddle Low Volt Error",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Paddle Low Voltage Error"
+    },
+    {
+        "addr": "90C",
+        "len": "2",
+        "name": "Paddle High Volt Error",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Paddle High Voltage Error"
+    },
+    {
+        "addr": "90E",
+        "len": "2",
+        "name": "Paddle Error Out Limit",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Paddle Error Out Limit"
+    },
+    {
+        "addr": "910",
+        "len": "2",
+        "name": "Paddle Not Match Error",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Paddle Not Match Error"
+    },
+    {
+        "addr": "912",
+        "len": "2",
+        "name": "Paddle Not Match Out Limit",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "Paddle Not Match Out Limit"
+    },
+    {
+        "addr": "A52",
+        "len": "2",
+        "name": "Throttle Min Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Min Speed Ref"
+    },
+    {
+        "addr": "BF2",
+        "len": "2",
+        "name": "Brake Signal Logic",
+        "scale": "1",
+        "unit": "0:LowAct\n1:HiAct",
+        "tip": "Brake Signal Logic"
+    },
+    {
+        "addr": "D12",
+        "len": "2",
+        "name": "PaddleFwdVolt",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D14",
+        "len": "2",
+        "name": "PaddleRevVolt",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D16",
+        "len": "2",
+        "name": "PaddleHyzVolt",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D26",
+        "len": "2",
+        "name": "Throttle DI Ramp Up",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "D2A",
+        "len": "2",
+        "name": "Throttle DI Ramp Down",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "D90",
+        "len": "2",
+        "name": "Steer AI Type",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": ""
+    },
+    {
+        "addr": "D92",
+        "len": "2",
+        "name": "Steer AI Min",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D94",
+        "len": "2",
+        "name": "Steer AI Max",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D96",
+        "len": "2",
+        "name": "Steer Deadband",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D98",
+        "len": "2",
+        "name": "Steer Map 70",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    },
+    {
+        "addr": "D9A",
+        "len": "2",
+        "name": "Steer Map 70 Speed",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": ""
+    },
+    {
+        "addr": "D9C",
+        "len": "2",
+        "name": "Steer Map 90 Speed",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": ""
+    },
+    {
+        "addr": "DE6",
+        "len": "2",
+        "name": "Steer Low Voltage Error",
+        "scale": "5/32767",
+        "unit": "v",
+        "tip": ""
+    },
+    {
+        "addr": "DE8",
+        "len": "2",
+        "name": "Steer High Voltage Error",
+        "scale": "5/32767",
+        "unit": "v",
+        "tip": ""
+    },
+    {
+        "addr": "DEA",
+        "len": "2",
+        "name": "Steer AI Mid",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": ""
+    }
+]

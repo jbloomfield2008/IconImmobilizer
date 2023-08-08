@@ -1,0 +1,610 @@
+[
+    {
+        "addr": "2",
+        "len": "2",
+        "name": "Voltage Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "VoltageScale"
+    },
+    {
+        "addr": "4",
+        "len": "2",
+        "name": "Current Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "CurrentScale"
+    },
+    {
+        "addr": "6",
+        "len": "2",
+        "name": "Unit Voltage Max",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "UnitVoltMax"
+    },
+    {
+        "addr": "8",
+        "len": "2",
+        "name": "Unit Under Voltage Trip",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Unit Under Voltage Trip"
+    },
+    {
+        "addr": "A",
+        "len": "2",
+        "name": "Unit Over Voltage Trip",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Unit Over Voltage Trip"
+    },
+    {
+        "addr": "C",
+        "len": "2",
+        "name": "Nominal Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Unit DC Nominal Voltage"
+    },
+    {
+        "addr": "E",
+        "len": "2",
+        "name": "Ctrl Voltage Max",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "CtrlVoltMax"
+    },
+    {
+        "addr": "10",
+        "len": "2",
+        "name": "Ctrl Voltage Low(12V )",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Control Voltage Low (12V Supply)"
+    },
+    {
+        "addr": "12",
+        "len": "2",
+        "name": "Ctrl Voltage High(12V)",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Control Voltage High(12V Supply)"
+    },
+    {
+        "addr": "14",
+        "len": "2",
+        "name": "Unit Current Max",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "UnitCurrentMax"
+    },
+    {
+        "addr": "16",
+        "len": "2",
+        "name": "Unit Over Current Trip",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "UnitOverCurrentTrip"
+    },
+    {
+        "addr": "18",
+        "len": "2",
+        "name": "Unit VT Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "UnitVTCurrent"
+    },
+    {
+        "addr": "1A",
+        "len": "2",
+        "name": "Max Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "UnitMaxCurrent"
+    },
+    {
+        "addr": "1C",
+        "len": "2",
+        "name": "Unit Current Max Freq",
+        "scale": "1/U16FreqScale",
+        "unit": "Hz",
+        "tip": "UnitFreqMax"
+    },
+    {
+        "addr": "40",
+        "len": "4",
+        "name": "Operating Time",
+        "scale": "1/3600",
+        "unit": "h",
+        "tip": "Operating Time"
+    },
+    {
+        "addr": "44",
+        "len": "4",
+        "name": "Running Time",
+        "scale": "1/3600",
+        "unit": "h",
+        "tip": "Running Time"
+    },
+    {
+        "addr": "48",
+        "len": "4",
+        "name": "Power Down Counter",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Power Down Counter"
+    },
+    {
+        "addr": "4C",
+        "len": "4",
+        "name": "Charger Relay Counter",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Charger Relay Counter"
+    },
+    {
+        "addr": "50",
+        "len": "4",
+        "name": "Motor Start Counter",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor Start Counter"
+    },
+    {
+        "addr": "54",
+        "len": "4",
+        "name": "Energy Counter",
+        "scale": "1",
+        "unit": "J",
+        "tip": "Energy Counter"
+    },
+    {
+        "addr": "58",
+        "len": "4",
+        "name": "MWh Counter",
+        "scale": "1",
+        "unit": "MWH",
+        "tip": "MWh Counter"
+    },
+    {
+        "addr": "7A",
+        "len": "2",
+        "name": "Frame ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Frame ID"
+    },
+    {
+        "addr": "7C",
+        "len": "2",
+        "name": "Configuration ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Configuration ID"
+    },
+    {
+        "addr": "7E",
+        "len": "2",
+        "name": "FW ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Application SW ID"
+    },
+    {
+        "addr": "80",
+        "len": "2",
+        "name": "FW Ver.",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Application SW Version"
+    },
+    {
+        "addr": "82",
+        "len": "2",
+        "name": "Motor ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Motor SW ID"
+    },
+    {
+        "addr": "84",
+        "len": "2",
+        "name": "Motor Type",
+        "scale": "1",
+        "unit": "1:PMSM\n2:ACIM",
+        "tip": "Motor Type"
+    },
+    {
+        "addr": "86",
+        "len": "2",
+        "name": "FW Interface ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "FW Variable ID"
+    },
+    {
+        "addr": "88",
+        "len": "2",
+        "name": "FW Interface Ver.",
+        "scale": "1",
+        "unit": "-",
+        "tip": "FW Variable Version"
+    },
+    {
+        "addr": "8A",
+        "len": "2",
+        "name": "Encoder Type",
+        "scale": "1",
+        "unit": "1:AB\n2:RSLV\n3:SinCos",
+        "tip": ""
+    },
+    {
+        "addr": "BE",
+        "len": "2",
+        "name": "Parameter Retain",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Parameter Retain"
+    },
+    {
+        "addr": "DA",
+        "len": "2",
+        "name": "Interface Factory Reset",
+        "scale": "1",
+        "unit": "13626:PAR_RST",
+        "tip": "InterfaceFactoryReset"
+    },
+    {
+        "addr": "7C4",
+        "len": "4",
+        "name": "MotorStallMaxCurrentLDFCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7C8",
+        "len": "4",
+        "name": "OverLoadActiveLDFCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7CC",
+        "len": "4",
+        "name": "OverLoadPassiveLDFCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "962",
+        "len": "2",
+        "name": "RunStartEnableSpeed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "RunStartEnableSpeed"
+    },
+    {
+        "addr": "964",
+        "len": "2",
+        "name": "Switching Frequency",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Switching Frequency"
+    },
+    {
+        "addr": "966",
+        "len": "2",
+        "name": "SWF Decrease Disable",
+        "scale": "1",
+        "unit": "1:DIS",
+        "tip": "Switching Frequency Decrease Disable"
+    },
+    {
+        "addr": "968",
+        "len": "2",
+        "name": "SWF Max",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Switching Frequency Max"
+    },
+    {
+        "addr": "96A",
+        "len": "2",
+        "name": "SWF Min",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Switching Frequency Min"
+    },
+    {
+        "addr": "96C",
+        "len": "2",
+        "name": "SWF Hot",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Switching Frequency Hot"
+    },
+    {
+        "addr": "96E",
+        "len": "2",
+        "name": "SWF Dec Start Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Switching Frequency Dec Start Temp"
+    },
+    {
+        "addr": "970",
+        "len": "2",
+        "name": "SWF Dec End Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Switching Frequency Dec End Temp"
+    },
+    {
+        "addr": "972",
+        "len": "2",
+        "name": "SWF Low Speed Out",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "Switching Frequency Low Speed Out"
+    },
+    {
+        "addr": "974",
+        "len": "2",
+        "name": "SWF Low Speed Cur0",
+        "scale": "U16UnitMaxCurrent/32767/U16CurrentScale",
+        "unit": "A",
+        "tip": "Switching Frequency Low Speed Cur0"
+    },
+    {
+        "addr": "976",
+        "len": "2",
+        "name": "SWF Low Speed Cur1",
+        "scale": "U16UnitMaxCurrent/32767/U16CurrentScale",
+        "unit": "A",
+        "tip": "Switching Frequency Low Speed Cur1"
+    },
+    {
+        "addr": "978",
+        "len": "2",
+        "name": "SWF LowSpeed Freq0",
+        "scale": "1/U16FreqScale",
+        "unit": "Hz",
+        "tip": "SwitchingFrequency LowSpeed Freq0"
+    },
+    {
+        "addr": "97A",
+        "len": "2",
+        "name": "SWF Low Speed Freq1",
+        "scale": "1/U16FreqScale",
+        "unit": "Hz",
+        "tip": "SwitchingFrequency Low Speed Freq1"
+    },
+    {
+        "addr": "9A8",
+        "len": "2",
+        "name": "Torque Limit",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": "Torque Limit"
+    },
+    {
+        "addr": "9AA",
+        "len": "2",
+        "name": "Current Limit",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Current Limit"
+    },
+    {
+        "addr": "9AC",
+        "len": "2",
+        "name": "Over Current Trip",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Over Current Trip"
+    },
+    {
+        "addr": "9B2",
+        "len": "2",
+        "name": "MCU OT Trip",
+        "scale": "1",
+        "unit": "?",
+        "tip": "NtcOTTrip"
+    },
+    {
+        "addr": "9EC",
+        "len": "2",
+        "name": "MCU OT Degrade Str Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "NtcOVTDegradeCoeff0"
+    },
+    {
+        "addr": "9EE",
+        "len": "2",
+        "name": "MCU OT Degrade End Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "NtcOVTDegradeCoeff1"
+    },
+    {
+        "addr": "9F0",
+        "len": "2",
+        "name": "MCU OT Degrade Str Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "MCU Over Temp Degrade Start Temp"
+    },
+    {
+        "addr": "9F2",
+        "len": "2",
+        "name": "MCU OT Degrade End Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "MCU Over Temp Degrade End Temp"
+    },
+    {
+        "addr": "9F4",
+        "len": "2",
+        "name": "MCU UT Degrade Str Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "NtcUNTDegradeCoeff0"
+    },
+    {
+        "addr": "9F6",
+        "len": "2",
+        "name": "MCU UT Degrade End Coeff",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "NtcUNTDegradeCoeff1"
+    },
+    {
+        "addr": "9F8",
+        "len": "2",
+        "name": "MCU UT Degrade Str Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "MCU Under Temp Degrade Start Temp"
+    },
+    {
+        "addr": "9FA",
+        "len": "2",
+        "name": "MCU UT Degrade End Temp",
+        "scale": "1",
+        "unit": "?",
+        "tip": "MCU Under Temp Degrade End Temp"
+    },
+    {
+        "addr": "A12",
+        "len": "2",
+        "name": "Zero Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Zero Speed"
+    },
+    {
+        "addr": "A14",
+        "len": "2",
+        "name": "Idle Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Idle Speed"
+    },
+    {
+        "addr": "A16",
+        "len": "2",
+        "name": "Idle Torque Command",
+        "scale": "100/32767",
+        "unit": "%",
+        "tip": "Idle Torque Command"
+    },
+    {
+        "addr": "A18",
+        "len": "2",
+        "name": "Idle Keep Time",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Idle Keep Time"
+    },
+    {
+        "addr": "B04",
+        "len": "2",
+        "name": "MCU Temperature Degrating Mode",
+        "scale": "1",
+        "unit": "1:EN",
+        "tip": "MCUNtcUnderTempDeratingEnable"
+    },
+    {
+        "addr": "B10",
+        "len": "2",
+        "name": "Power Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "PowerScale"
+    },
+    {
+        "addr": "B12",
+        "len": "2",
+        "name": "Freq Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "FreqScale"
+    },
+    {
+        "addr": "B14",
+        "len": "2",
+        "name": "Rpm Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "RpmScale"
+    },
+    {
+        "addr": "B16",
+        "len": "2",
+        "name": "Torque Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "TorqueScale"
+    },
+    {
+        "addr": "B18",
+        "len": "2",
+        "name": "Henry Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "HenryScale"
+    },
+    {
+        "addr": "B1A",
+        "len": "2",
+        "name": "Ohm Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "OhmScale"
+    },
+    {
+        "addr": "B1C",
+        "len": "2",
+        "name": "Flux Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "FluxScale"
+    },
+    {
+        "addr": "B1E",
+        "len": "2",
+        "name": "Watt Scale",
+        "scale": "1",
+        "unit": "-",
+        "tip": "WattScale"
+    },
+    {
+        "addr": "CE0",
+        "len": "2",
+        "name": "Parameter ID",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Parameter ID"
+    },
+    {
+        "addr": "CE2",
+        "len": "2",
+        "name": "Parameter Ver.",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Parameter Ver"
+    },
+    {
+        "addr": "E14",
+        "len": "2",
+        "name": "RCLimitEnable",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    }
+]

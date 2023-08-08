@@ -1,0 +1,482 @@
+[
+    {
+        "addr": "568",
+        "len": "4",
+        "name": "Speed Ctrl Kp",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SpeedControllerKp"
+    },
+    {
+        "addr": "56C",
+        "len": "4",
+        "name": "Speed Ctrl Ki",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SpeedControllerKi"
+    },
+    {
+        "addr": "570",
+        "len": "4",
+        "name": "Speed Ctrl Kd",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SpeedControllerKd"
+    },
+    {
+        "addr": "5B8",
+        "len": "4",
+        "name": "Soft Start/Stop Coff",
+        "scale": "1/3366232",
+        "unit": "",
+        "tip": "SoftStopFilterGain"
+    },
+    {
+        "addr": "5BC",
+        "len": "4",
+        "name": "Fast Start/Stop Coff",
+        "scale": "1/3366232",
+        "unit": "",
+        "tip": "FastStopFilterGain"
+    },
+    {
+        "addr": "5C0",
+        "len": "4",
+        "name": "Quick Rev Stop Coeff",
+        "scale": "1/3366232",
+        "unit": "",
+        "tip": "QRStopFilterGain"
+    },
+    {
+        "addr": "5C8",
+        "len": "4",
+        "name": "Quick Rev Gain Magni",
+        "scale": "1/32767",
+        "unit": "-",
+        "tip": "QRPIGainMagnificationSet"
+    },
+    {
+        "addr": "5D4",
+        "len": "4",
+        "name": "SPCOptKpDerateCoff",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpDerateCoff"
+    },
+    {
+        "addr": "72C",
+        "len": "4",
+        "name": "Nominal Speed Ctrl Kp",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Speed Ctrl Kp Gain"
+    },
+    {
+        "addr": "730",
+        "len": "4",
+        "name": "Nominal Speed Ctrl Ki",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Speed Ctrl Ki Gain"
+    },
+    {
+        "addr": "734",
+        "len": "4",
+        "name": "Spd Loop Kp Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "738",
+        "len": "4",
+        "name": "Spd Loop Ki Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "73C",
+        "len": "4",
+        "name": "Spd Loop Kd Gain Coff",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "7BC",
+        "len": "4",
+        "name": "Spd Ref Ramp Rate Rate",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "A10",
+        "len": "2",
+        "name": "Gear Switch Enable Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "GearSwitchEnableSpeed"
+    },
+    {
+        "addr": "A1A",
+        "len": "2",
+        "name": "Fwd Max Speed(HSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Forward Max Speed"
+    },
+    {
+        "addr": "A1C",
+        "len": "2",
+        "name": "Rev Max Speed(HSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Reverse Max Speed"
+    },
+    {
+        "addr": "A1E",
+        "len": "2",
+        "name": "Fwd Max Speed(LSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Forward Max Speed(LowSpeedMode)"
+    },
+    {
+        "addr": "A20",
+        "len": "2",
+        "name": "Rev Max Speed(LSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Reverse Max Speed(LowSpeedMode)"
+    },
+    {
+        "addr": "A22",
+        "len": "2",
+        "name": "Speed Response Mode",
+        "scale": "1",
+        "unit": "0:SIMPLE\n1:COMPEX",
+        "tip": "Speed Response Mode"
+    },
+    {
+        "addr": "A24",
+        "len": "2",
+        "name": "SPR High Spd",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "High Speed(HS)"
+    },
+    {
+        "addr": "A26",
+        "len": "2",
+        "name": "SPR Low Spd",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Low Speed(LS)"
+    },
+    {
+        "addr": "A28",
+        "len": "2",
+        "name": "Fwd Acc Full HS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Full Acc Time HS"
+    },
+    {
+        "addr": "A2A",
+        "len": "2",
+        "name": "Fwd Acc Full LS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Full Acc Time LS"
+    },
+    {
+        "addr": "A2C",
+        "len": "2",
+        "name": "Fwd Acc Partial",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Partial Acc Time"
+    },
+    {
+        "addr": "A2E",
+        "len": "2",
+        "name": "Fwd Dec Full HS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Neutral Dec Time HS"
+    },
+    {
+        "addr": "A30",
+        "len": "2",
+        "name": "Fwd Dec Full LS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forwrd Neutral Dec Time LS"
+    },
+    {
+        "addr": "A32",
+        "len": "2",
+        "name": "Fwd Dec Partial",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Partial Dec  Time"
+    },
+    {
+        "addr": "A34",
+        "len": "2",
+        "name": "Rev Acc Full HS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Full Acc Time HS"
+    },
+    {
+        "addr": "A36",
+        "len": "2",
+        "name": "Rev Acc Full LS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Full Acc Time LS"
+    },
+    {
+        "addr": "A38",
+        "len": "2",
+        "name": "Rev Acc Partial",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Partial Acc Time"
+    },
+    {
+        "addr": "A3A",
+        "len": "2",
+        "name": "Rev Dec Full HS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Neutral Dec Time HS"
+    },
+    {
+        "addr": "A3C",
+        "len": "2",
+        "name": "Rev Dec Full LS",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forwrd Neutral Dec Time LS"
+    },
+    {
+        "addr": "A3E",
+        "len": "2",
+        "name": "Rev Dec Partial",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Partial Dec  Time"
+    },
+    {
+        "addr": "A40",
+        "len": "2",
+        "name": "Fwd Acc LSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward Acc Time (Low Speed Mode)"
+    },
+    {
+        "addr": "A42",
+        "len": "2",
+        "name": "Fwd Dec LSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Forward DecTime (Low Speed Mode)"
+    },
+    {
+        "addr": "A44",
+        "len": "2",
+        "name": "Rev Acc LSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse Acc Time (Low Speed Mode)"
+    },
+    {
+        "addr": "A46",
+        "len": "2",
+        "name": "Rev Dec LSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Reverse DecTime (Low Speed Mode)"
+    },
+    {
+        "addr": "A4A",
+        "len": "2",
+        "name": "Brake Dec",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Braker Dec Time"
+    },
+    {
+        "addr": "A54",
+        "len": "2",
+        "name": "Throt Speed Ref Chk Period",
+        "scale": "1",
+        "unit": "ms",
+        "tip": "SpeedRefCheckPeriod"
+    },
+    {
+        "addr": "A56",
+        "len": "2",
+        "name": "Throt Speed Ref ",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "SpeedDif"
+    },
+    {
+        "addr": "A58",
+        "len": "2",
+        "name": "SAccRateLowLimit",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SAccRateLowLimit"
+    },
+    {
+        "addr": "A5A",
+        "len": "2",
+        "name": "SAccRateHighLimit",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SAccRateHighLimit"
+    },
+    {
+        "addr": "A5C",
+        "len": "2",
+        "name": "SPCOptKpGainChangeEnable",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpGainChangeEnable"
+    },
+    {
+        "addr": "A5E",
+        "len": "2",
+        "name": "SPCOptKpDerateStrSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpDerateStrSpd"
+    },
+    {
+        "addr": "A60",
+        "len": "2",
+        "name": "SPCOptKpDerateEndSpd",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpDerateEndSpd"
+    },
+    {
+        "addr": "A62",
+        "len": "2",
+        "name": "SPCOptKpDerateRate",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptKpDerateRate"
+    },
+    {
+        "addr": "A64",
+        "len": "2",
+        "name": "SPCOptIGainHLimit",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SPCOptIGainHLimit"
+    },
+    {
+        "addr": "A7C",
+        "len": "2",
+        "name": "Quick Rev Enable",
+        "scale": "1",
+        "unit": "1:THRO\n2:GEAR",
+        "tip": "Quick Reverse Enable"
+    },
+    {
+        "addr": "A7E",
+        "len": "2",
+        "name": "Quick Rev Speed Ref",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Quick Reverse Speed Ref"
+    },
+    {
+        "addr": "A80",
+        "len": "2",
+        "name": "Quick Rev Dec",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Quick Reverse Dec Time"
+    },
+    {
+        "addr": "AC0",
+        "len": "2",
+        "name": "Seat Off Dec Time",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "Seat Off Dec Time"
+    },
+    {
+        "addr": "BFA",
+        "len": "2",
+        "name": "Fwd Max Speed(MSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "FWD Max Speed(MSM)"
+    },
+    {
+        "addr": "BFC",
+        "len": "2",
+        "name": "Rev Max Speed(MSM)",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "REV Max Speed(MSM)"
+    },
+    {
+        "addr": "BFE",
+        "len": "2",
+        "name": "S-Curve Start/Stop Enable",
+        "scale": "1",
+        "unit": "1:S_E_CURVE\n2:E_CURVE",
+        "tip": "SpeedRefRampFilterEnable"
+    },
+    {
+        "addr": "C00",
+        "len": "2",
+        "name": "Speed Feedback Fc Hz",
+        "scale": "1",
+        "unit": "Hz",
+        "tip": "SpcOptSpdFedIIRFcHz"
+    },
+    {
+        "addr": "CD8",
+        "len": "2",
+        "name": "Fwd Acc MSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "FWD Acc Time (MSM)"
+    },
+    {
+        "addr": "CDA",
+        "len": "2",
+        "name": "Fwd Dec MSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "FWD DecTime (MSM)"
+    },
+    {
+        "addr": "CDC",
+        "len": "2",
+        "name": "Rev Acc MSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "REV Acc Time (MSM)"
+    },
+    {
+        "addr": "CDE",
+        "len": "2",
+        "name": "Rev Dec MSM",
+        "scale": "1/1000",
+        "unit": "s",
+        "tip": "REV DecTime (MSM)"
+    }
+]

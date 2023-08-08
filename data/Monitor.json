@@ -1,0 +1,554 @@
+[
+    {
+        "addr": "1DA",
+        "len": "2",
+        "name": "Fwd DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "FWD DI"
+    },
+    {
+        "addr": "1DC",
+        "len": "2",
+        "name": "Rev DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Rev DI"
+    },
+    {
+        "addr": "1DE",
+        "len": "2",
+        "name": "Charge Link DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Charge Link DI"
+    },
+    {
+        "addr": "1E0",
+        "len": "2",
+        "name": "Low Speed DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Low Speed Mode DI"
+    },
+    {
+        "addr": "1E2",
+        "len": "2",
+        "name": "Eco Mode DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Eco Mode DI"
+    },
+    {
+        "addr": "1F8",
+        "len": "2",
+        "name": "Throttle DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Throttle DI"
+    },
+    {
+        "addr": "1FA",
+        "len": "2",
+        "name": "Brake DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Brake DI"
+    },
+    {
+        "addr": "1FC",
+        "len": "2",
+        "name": "Throttle AI Votage",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Thro AI Signal"
+    },
+    {
+        "addr": "1FE",
+        "len": "2",
+        "name": "Throttle AI2 Votage",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Thro AI2 Signal"
+    },
+    {
+        "addr": "200",
+        "len": "2",
+        "name": "Brake AI Voltage",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Brake AI1 Signal"
+    },
+    {
+        "addr": "202",
+        "len": "2",
+        "name": "Brake AI2 Votage",
+        "scale": "5/32767",
+        "unit": "V",
+        "tip": "Brake AI2 Signal"
+    },
+    {
+        "addr": "204",
+        "len": "2",
+        "name": "Control Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Control Volt"
+    },
+    {
+        "addr": "206",
+        "len": "2",
+        "name": "KSI Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "KSI Voltage"
+    },
+    {
+        "addr": "208",
+        "len": "2",
+        "name": "Battery Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "DC Voltage"
+    },
+    {
+        "addr": "20A",
+        "len": "2",
+        "name": "MCU Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Driver Temperature"
+    },
+    {
+        "addr": "20C",
+        "len": "2",
+        "name": "Unit Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": ""
+    },
+    {
+        "addr": "20E",
+        "len": "2",
+        "name": "Board Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": "Board Temperature"
+    },
+    {
+        "addr": "210",
+        "len": "2",
+        "name": "Motor Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": "MotorTemperature"
+    },
+    {
+        "addr": "212",
+        "len": "2",
+        "name": "Battery Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "DC Current"
+    },
+    {
+        "addr": "214",
+        "len": "2",
+        "name": "Pump_Slave DC Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Pump_Slave DC Current"
+    },
+    {
+        "addr": "216",
+        "len": "2",
+        "name": "Motor Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": "Motor Current"
+    },
+    {
+        "addr": "21A",
+        "len": "2",
+        "name": "Motor Torque",
+        "scale": "1/U16TorqueScale",
+        "unit": "Nm",
+        "tip": "Motor Torque"
+    },
+    {
+        "addr": "21C",
+        "len": "2",
+        "name": "Motor Voltage",
+        "scale": "1/U16VoltageScale",
+        "unit": "V",
+        "tip": "Motor Voltage"
+    },
+    {
+        "addr": "21E",
+        "len": "2",
+        "name": "Motor Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Motor Speed"
+    },
+    {
+        "addr": "220",
+        "len": "2",
+        "name": "Motor Power",
+        "scale": "U16PowerScale/1000",
+        "unit": "KW",
+        "tip": "Motor Power"
+    },
+    {
+        "addr": "222",
+        "len": "2",
+        "name": "Resolvor Position",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Resolvor Position"
+    },
+    {
+        "addr": "226",
+        "len": "2",
+        "name": "EncFrequencyMonitor",
+        "scale": "1/U16FreqScale",
+        "unit": "Hz",
+        "tip": ""
+    },
+    {
+        "addr": "228",
+        "len": "2",
+        "name": "Encoder Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Shaft Speed"
+    },
+    {
+        "addr": "22A",
+        "len": "2",
+        "name": "Shaft Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": "Shaft Speed Monitor"
+    },
+    {
+        "addr": "22C",
+        "len": "2",
+        "name": "ShaftSpeedMonitor",
+        "scale": "1",
+        "unit": "RPM",
+        "tip": ""
+    },
+    {
+        "addr": "234",
+        "len": "2",
+        "name": "Active Fault",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Active Fault"
+    },
+    {
+        "addr": "236",
+        "len": "2",
+        "name": "Active Alarm",
+        "scale": "1",
+        "unit": "-",
+        "tip": "Active Alarm"
+    },
+    {
+        "addr": "23C",
+        "len": "2",
+        "name": "Pre-Charge State",
+        "scale": "1",
+        "unit": "-",
+        "tip": "PreCharge State"
+    },
+    {
+        "addr": "240",
+        "len": "2",
+        "name": "Fan State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": "Fan Status"
+    },
+    {
+        "addr": "246",
+        "len": "2",
+        "name": "Brake State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "250",
+        "len": "2",
+        "name": "Key Acc",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": "KeyAcc"
+    },
+    {
+        "addr": "252",
+        "len": "2",
+        "name": "Key On",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": "KeyOn"
+    },
+    {
+        "addr": "254",
+        "len": "2",
+        "name": "BrakeOpening",
+        "scale": "1",
+        "unit": "%",
+        "tip": "Brake Opening"
+    },
+    {
+        "addr": "256",
+        "len": "2",
+        "name": "Throttle Opening",
+        "scale": "1",
+        "unit": "%",
+        "tip": "Throttle Opening"
+    },
+    {
+        "addr": "262",
+        "len": "2",
+        "name": "Charge Link State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": "ChargeLinkState"
+    },
+    {
+        "addr": "264",
+        "len": "2",
+        "name": "Low Speed State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": "LowSpeedModeState"
+    },
+    {
+        "addr": "2AA",
+        "len": "2",
+        "name": "BCH Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": "BCHTemperature"
+    },
+    {
+        "addr": "2AC",
+        "len": "2",
+        "name": "HeatSink Temperature",
+        "scale": "1",
+        "unit": "?",
+        "tip": ""
+    },
+    {
+        "addr": "2F2",
+        "len": "2",
+        "name": "Vehicle Speed (Kmh)",
+        "scale": "1/10",
+        "unit": "KM/H",
+        "tip": "VehSpeedKmh"
+    },
+    {
+        "addr": "334",
+        "len": "2",
+        "name": "SOC",
+        "scale": "1/100",
+        "unit": "%",
+        "tip": "BDI Percentage"
+    },
+    {
+        "addr": "336",
+        "len": "2",
+        "name": "EMB State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "33C",
+        "len": "2",
+        "name": "LipLockDI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "LipLockDI"
+    },
+    {
+        "addr": "33E",
+        "len": "2",
+        "name": "KeyOnDI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "KeyOnDI"
+    },
+    {
+        "addr": "340",
+        "len": "2",
+        "name": "Seat Switch DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "SeatSwitchDI"
+    },
+    {
+        "addr": "342",
+        "len": "2",
+        "name": "Hand Brake Switch DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "HandBrakeSwitchDI"
+    },
+    {
+        "addr": "346",
+        "len": "2",
+        "name": "LockIn Switch DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": "LockInSwitchDI"
+    },
+    {
+        "addr": "372",
+        "len": "2",
+        "name": "Seat State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "374",
+        "len": "2",
+        "name": "Hand Brake State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "376",
+        "len": "2",
+        "name": "LockIn State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "37E",
+        "len": "2",
+        "name": "Fault Code1",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "380",
+        "len": "2",
+        "name": "Alarm Code1",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "40E",
+        "len": "2",
+        "name": "Canbin Door DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "410",
+        "len": "2",
+        "name": "Canbin  Door State",
+        "scale": "1",
+        "unit": "1:OPEN\n2:CLOSE",
+        "tip": ""
+    },
+    {
+        "addr": "418",
+        "len": "2",
+        "name": "BackBeefState",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "41A",
+        "len": "2",
+        "name": "DownRelayState",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "41C",
+        "len": "2",
+        "name": "ContactorState",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "41E",
+        "len": "2",
+        "name": "EmbDrvState",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "422",
+        "len": "2",
+        "name": "Slave Motor Speed",
+        "scale": "1/U16RpmScale",
+        "unit": "RPM",
+        "tip": ""
+    },
+    {
+        "addr": "424",
+        "len": "2",
+        "name": "Slave Motor Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": ""
+    },
+    {
+        "addr": "426",
+        "len": "2",
+        "name": "Salve Battery Current",
+        "scale": "1/U16CurrentScale",
+        "unit": "A",
+        "tip": ""
+    },
+    {
+        "addr": "428",
+        "len": "2",
+        "name": "EcoModeState",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "42A",
+        "len": "2",
+        "name": "EMB UnLock DI",
+        "scale": "1",
+        "unit": "-",
+        "tip": ""
+    },
+    {
+        "addr": "42C",
+        "len": "2",
+        "name": "EMB UnLock State",
+        "scale": "1",
+        "unit": "1:ON",
+        "tip": ""
+    },
+    {
+        "addr": "42E",
+        "len": "2",
+        "name": "Steer Angel",
+        "scale": "1",
+        "unit": "\u00b0",
+        "tip": ""
+    }
+]
